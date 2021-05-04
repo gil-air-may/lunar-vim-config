@@ -1,4 +1,5 @@
 vim.api.nvim_set_keymap('n', '<Space>', '<NOP>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>;', '$', {noremap = true})
 vim.g.mapleader = ' '
 
 -- no hl
